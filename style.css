@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    
+}
+.logo{
+    color: #ff4668;
+    cursor: pointer;
+}
+.searchbar{
+    display: flex;
+    border: solid black 2px;
+    width: 30%;
+    border-radius: 30px;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.search{
+    color: #ff4668;
+    padding: 5px;
+}
+.filtersection{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+i{
+    font-size: 20px;
+}
+.filterbox{
+    text-align: center;
+    color: gray;
+    cursor: pointer;
+}
+.filterbox:hover{
+    color: black;
+}
+.hotal-container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+img:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+img{
+    border-radius: 10px;
+}
+.fotter{
+    background-color: aqua;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: auto;
+}
+.login{
+    padding: 20px;
+    cursor: pointer;
+}
